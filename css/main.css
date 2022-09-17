@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  background-color: hsl(233deg, 47%, 7%);
+}
+main .container-box {
+  display: flex;
+  color: #eee;
+  width: calc(100vw - 20%);
+  margin: auto;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: hsl(244deg, 38%, 16%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+main .container-box .content {
+  padding: 4rem 5rem 4rem 4rem;
+}
+main .container-box .content h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2.2rem;
+  line-height: 1.25;
+  margin-bottom: 1.7rem;
+}
+main .container-box .content h1 span {
+  color: hsl(277deg, 64%, 61%);
+}
+main .container-box .content p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 4rem;
+}
+main .container-box .content .status {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+main .container-box .content .status span {
+  display: block;
+  padding-top: 5px;
+  font-size: 0.75rem;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+}
+main .container-box .image {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to bottom, hsla(277deg, 64%, 61%, 0.7), hsla(277deg, 64%, 61%, 0.7)), url("../images/image-header-desktop.jpg") no-repeat center;
+  background-size: contain;
+}
+
+/*# sourceMappingURL=main.css.map */
