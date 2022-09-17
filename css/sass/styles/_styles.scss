@@ -36,8 +36,8 @@ main{
                 display: flex;
                 justify-content: space-between;
                 text-transform: uppercase;
-                h2{
-                }
+                // h2{
+                // }
                 span{
                     display: block;
                     padding-top: 5px;
@@ -48,11 +48,12 @@ main{
             }
         }
         .image{
-            width: inherit;
-            height: inherit;
-            background: linear-gradient(to bottom, hsl(277deg 64% 61% / 70%), hsl(277deg 64% 61% / 70%)),
-            url("../images/image-header-desktop.jpg") no-repeat center;
-            background-size: contain;
+            // width: inherit;
+            // height: inherit;
+            // background: linear-gradient(to bottom, hsl(277deg 64% 61% / 70%), hsl(277deg 64% 61% / 70%)),
+            // url("../images/image-header-desktop.jpg") no-repeat center;
+            // background-size: cover;
+            
         }
     }
 }

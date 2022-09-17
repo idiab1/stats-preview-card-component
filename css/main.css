@@ -59,11 +59,5 @@ main .container-box .content .status span {
   color: hsla(0deg, 0%, 100%, 0.6);
   font-family: "Lexend Deca", sans-serif;
 }
-main .container-box .image {
-  width: inherit;
-  height: inherit;
-  background: linear-gradient(to bottom, hsla(277deg, 64%, 61%, 0.7), hsla(277deg, 64%, 61%, 0.7)), url("../images/image-header-desktop.jpg") no-repeat center;
-  background-size: contain;
-}
 
 /*# sourceMappingURL=main.css.map */
