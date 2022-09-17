@@ -1,0 +1,58 @@
+// Main element
+main{
+    height: 100vh;
+    display: flex;
+    background-color: $dark-blue;
+    // Container box
+    .container-box{
+        display: flex;
+        color: #eee;
+        width: calc(100vw - 20%);
+        margin: auto;
+        flex-direction: row;
+        overflow: hidden;
+        background-color: $desaturated-blue;
+        @include prefixer(border-radius, 10px, webkit moz ms o);
+        // content
+        .content{
+            padding: 4rem 5rem 4rem 4rem;
+            h1{
+                color: hsl(0deg, 0%, 100%);
+                font-size: 2.2rem;
+                line-height: 1.25;
+                margin-bottom: 1.7rem;
+                span{
+                    color: $soft-violet;
+                }
+            }
+            p{
+                color: hsla(0, 0%, 100%, 0.75);
+                line-height: 1.5;
+                font-size: 1rem;
+                margin-bottom: 4rem;
+            }
+            // status
+            .status{
+                display: flex;
+                justify-content: space-between;
+                text-transform: uppercase;
+                h2{
+                }
+                span{
+                    display: block;
+                    padding-top: 5px;
+                    font-size: 0.75rem;
+                    color: hsla(0, 0%, 100%, 0.6);
+                    font-family: 'Lexend Deca', sans-serif;
+                }
+            }
+        }
+        .image{
+            width: inherit;
+            height: inherit;
+            background: linear-gradient(to bottom, hsl(277deg 64% 61% / 70%), hsl(277deg 64% 61% / 70%)),
+            url("../images/image-header-desktop.jpg") no-repeat center;
+            background-size: contain;
+        }
+    }
+}
